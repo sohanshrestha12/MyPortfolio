@@ -5,7 +5,7 @@ import linkedInIcon from "../assets/images/Linkedin.png";
 
 const HeroSection = () => {
   return (
-    <Wrapper>
+    <Wrapper id="home">
       <div className="hero-content">
         <p>
           <span>HELLO</span>

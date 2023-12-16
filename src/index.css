@@ -13,7 +13,9 @@
     box-sizing: border-box;
     font-size: 10px;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 body {
     font-family: 'Roboto', sans-serif;
     background-color: rgb(245, 245, 245);
