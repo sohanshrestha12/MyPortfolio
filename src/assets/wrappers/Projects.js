@@ -9,13 +9,19 @@ const Wrapper = styled.section`
     text-align: center;
     font-size: 2.4rem;
     margin-bottom: 5rem;
+    letter-spacing: 0.1rem;
+    text-transform: uppercase;
   }
   p span {
     color: var(--header-color);
     font-size: 1.4rem;
     font-weight: 500;
   }
+  p:nth-child(2) {
+    padding:0 5rem;
+  }
   p:nth-child(3) {
+    padding:0 5rem;
     margin-top: 0.9rem;
     font-weight: 500;
     font-size: 1.8rem;
@@ -28,8 +34,14 @@ const Wrapper = styled.section`
     padding: 1rem 5rem;
     gap: 3rem;
   }
+  .project-container .projects-image{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  } 
   .project-container .projects-image img {
     width: 100%;
+    height:100%;
     object-fit: fill;
   }
   .project-container .projects-description {
