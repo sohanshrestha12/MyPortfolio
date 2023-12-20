@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 const Wrapper = styled.section`
-  padding: 10rem 14rem;
+  padding: 0 14rem;
   color: var(--text-color);
   h3 {
     color: var(--header-color);

@@ -1,13 +1,29 @@
-import styled from "styled-components";
+import styled, { css } from "styled-components";
+
+
+
 const Wrapper = styled.nav`
+  //for scroll
+  ${({ $isNavHidden }) =>
+    $isNavHidden &&
+    css`
+      transform: translateY(-13rem);
+      box-shadow:none;
+      
+    `}
+  transition:0.3s ease-in-out;
   font-size: 1.6rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 3rem 6rem;
-  position: relative;
+  height:10rem;
   background-color: var(--secondary-bg-color);
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
   h2 span {
     font-size: 2.4rem;
     color: var(--header-color);
@@ -65,7 +81,7 @@ const Wrapper = styled.nav`
     right: 0;
   }
   #mobile-nav-links {
-    padding:1rem 8rem;
+    padding: 1rem 8rem;
   }
   #mobile-nav-links li {
     display: flex;
@@ -80,6 +96,7 @@ const Wrapper = styled.nav`
     text-decoration: none;
     color: var(--text-color);
   }
+
   @media only screen and (max-width: 768px) {
     padding-left: 3rem;
     padding-right: 3rem;
