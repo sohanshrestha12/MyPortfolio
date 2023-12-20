@@ -37,6 +37,7 @@ const Contact = () => {
             rows="10"
             placeholder="Message"
           ></textarea>
+          <button>Submit</button>
         </div>
       </div>
     </Wrapper>

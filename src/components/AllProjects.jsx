@@ -17,11 +17,11 @@ const AllProjects = () => {
         return (
           <div key={i} className="project-container">
             <div className="projects-image">
-              <img src={image} alt="Jobify" />
+              <img src={image} alt="Not found" />
             </div>
             <div className="projects-description">
               <h4>{heading}</h4>
-              <p>{desc}</p>
+              <p className="description">{desc}</p>
               <div className="projects-tags">
                 {tags.map((tag,i)=>{
                   return <p key={i}>{tag}</p>

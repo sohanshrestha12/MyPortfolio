@@ -1,13 +1,13 @@
 import styled from "styled-components";
 const Wrapper = styled.section`
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns:repeat(2,1fr);
   margin-top: 5rem;
   padding: 10rem 9rem;
-  height: 85vh;
   color: var(--text-color);
+  gap:2rem;
   .about-left-container img {
-    width: 50rem;
+    width: 100%
   }
   .about-right-container {
     line-height: 2rem;
@@ -27,6 +27,11 @@ const Wrapper = styled.section`
     margin-top: 1.5rem;
     font-size: 1.5rem;
     color: #555555;
+  }
+  @media only screen and (max-width: 768px) {
+    grid-template-columns: 1fr;
+    padding-right:5rem;
+    padding-left:5rem;
   }
 `;
 

@@ -2,14 +2,13 @@ import styled from "styled-components";
 const Wrapper = styled.section`
   margin-top: 5rem;
   padding: 0 9rem;
-  height: 85vh;
-  color:var(--text-color);
+  color: var(--text-color);
   h3 {
-    color:var(--header-color);
+    color: var(--header-color);
     text-align: center;
     font-size: 2.4rem;
     margin-bottom: 5rem;
-    letter-spacing:0.1rem;
+    letter-spacing: 0.1rem;
   }
   .skills-container {
     display: grid;
@@ -43,6 +42,13 @@ const Wrapper = styled.section`
     font-size: 1.8rem;
     font-weight: 500;
     margin-top: 1rem;
+  }
+  @media only screen and (max-width: 768px) {
+    padding:0;
+    display:flex;
+    justify-content:center;
+    flex-direction:column;
+    align-items:center;
   }
 `;
 

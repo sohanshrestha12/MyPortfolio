@@ -24,7 +24,7 @@ const Wrapper = styled.section`
     flex-basis: 30%;
   }
   .contact-container .contact-right-container {
-    flex-basis: 60%;
+    flex-basis: 55%;
   }
   .contact-container .contact-left-container h5 {
     font-size: 2.2rem;
@@ -100,6 +100,41 @@ const Wrapper = styled.section`
     resize: none;
     outline: none;
     padding: 0.8rem 1rem;
+  }
+  .contact-container .contact-right-container button {
+    align-self: flex-end;
+    padding: 1rem 2rem;
+    color: var(--secondary-bg-color);
+    background-color: var(--header-color);
+    border: 2px solid var(--header-color);
+    border-radius: 20px;
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  .contact-container .contact-right-container button:hover {
+    background-color: var(--secondary-bg-color);
+    border: 2px solid var(--header-color);
+    color: var(--header-color);
+    cursor: pointer;
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding-left: 2rem;
+    padding-right: 2rem;
+    .contact-container .contact-right-container .contact-form {
+      grid-template-columns: 1fr;
+    }
+    .contact-container .contact-left-container {
+      flex-basis: auto;
+    }
+  }
+  @media only screen and (min-width: 800px) and (max-width: 1000px) {
+    padding-left:3rem;
+    padding-right:3rem;
+
+    .contact-container .contact-left-container {
+      flex-basis: auto;
+    }
   }
 `;
 
