@@ -17,7 +17,6 @@ const Wrapper = styled.nav`
   justify-content: space-between;
   align-items: center;
   padding: 3rem 6rem;
-  height:10rem;
   background-color: var(--secondary-bg-color);
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
   width: 100%;
