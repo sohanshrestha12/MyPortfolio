@@ -32,7 +32,7 @@ const Wrapper = styled.section`
     font-size: 1.8rem;
   }
   .blob {
-    background-image: url('../src/assets/images/me.jpg');
+    background-image: url('./src/assets/images/me.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
