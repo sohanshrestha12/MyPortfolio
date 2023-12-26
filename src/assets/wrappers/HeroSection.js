@@ -32,7 +32,7 @@ const Wrapper = styled.section`
     font-size: 1.8rem;
   }
   .blob {
-    background-image: url(https://images.unsplash.com/photo-1494790108377-be9c29b29330?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url('../src/assets/images/me.jpg');
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -96,15 +96,16 @@ const Wrapper = styled.section`
   }
   .hero-logo .hero-button button:nth-child(2):hover {
     cursor: pointer;
-    background-color: white;
-    color: var(--header-color);
+    border-color:#4232a5;
+    background-color: #4232a5;
+    color: white;
   }
   @media only screen and (max-width: 768px) {
     gap: 0;
     margin-top: 3rem;
     grid-template-columns: 1fr;
-    padding-left:5rem;
-    padding-right:5rem;
+    padding-left: 5rem;
+    padding-right: 5rem;
     .hero-content {
       order: 2;
     }

@@ -8,8 +8,7 @@ const Wrapper = styled.nav`
     $isNavHidden &&
     css`
       transform: translateY(-13rem);
-      box-shadow:none;
-      
+      box-shadow: none;
     `}
   transition:0.3s ease-in-out;
   font-size: 1.6rem;
@@ -20,6 +19,7 @@ const Wrapper = styled.nav`
   background-color: var(--secondary-bg-color);
   box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
   width: 100%;
+  max-width: 160rem;
   position: fixed;
   top: 0;
   left: 0;

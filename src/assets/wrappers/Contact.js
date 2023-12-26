@@ -112,9 +112,9 @@ const Wrapper = styled.section`
     font-weight: 500;
   }
   .contact-container .contact-right-container button:hover {
-    background-color: var(--secondary-bg-color);
-    border: 2px solid var(--header-color);
-    color: var(--header-color);
+    background-color: #4232a5;
+    border: 2px solid #4232a5;
+    color: white;
     cursor: pointer;
   }
 
@@ -129,8 +129,8 @@ const Wrapper = styled.section`
     }
   }
   @media only screen and (min-width: 800px) and (max-width: 1000px) {
-    padding-left:3rem;
-    padding-right:3rem;
+    padding-left: 3rem;
+    padding-right: 3rem;
 
     .contact-container .contact-left-container {
       flex-basis: auto;
