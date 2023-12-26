@@ -32,7 +32,7 @@ const Wrapper = styled.section`
     font-size: 1.8rem;
   }
   .blob {
-    background-image: url('./src/assets/images/me.jpg');
+    background-image: url(https://res.cloudinary.com/dinnovag9/image/upload/v1703604603/me_ggzl8s.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -96,7 +96,7 @@ const Wrapper = styled.section`
   }
   .hero-logo .hero-button button:nth-child(2):hover {
     cursor: pointer;
-    border-color:#4232a5;
+    border-color: #4232a5;
     background-color: #4232a5;
     color: white;
   }
