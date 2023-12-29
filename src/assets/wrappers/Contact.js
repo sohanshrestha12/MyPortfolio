@@ -70,7 +70,7 @@ const Wrapper = styled.section`
     p {
     font-size: 1.6rem;
   }
-  .contact-container .contact-right-container {
+  .contact-container .contact-right-container form {
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -127,6 +127,24 @@ const Wrapper = styled.section`
     .contact-container .contact-left-container {
       flex-basis: auto;
     }
+  }
+  .contact-success {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-color: #d4edda;
+    margin-bottom: 2rem;
+    border-radius: 5px;
+    color: #155724;
+    font-size: 1.4rem;
+    gap:0.7rem;
+    letter-spacing: 0.2rem;
+    padding: 2rem;
+  }
+  .contact-success svg {
+    font-size:1.8rem;
+    font-weight:bold;   
   }
   @media only screen and (min-width: 800px) and (max-width: 1000px) {
     padding-left: 3rem;

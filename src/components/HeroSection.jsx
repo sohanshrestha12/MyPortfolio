@@ -2,7 +2,7 @@ import React from "react";
 import Wrapper from "../assets/wrappers/HeroSection";
 import githubIcon from "../assets/images/github.png";
 import linkedInIcon from "../assets/images/Linkedin.png";
-
+import { Link } from "react-router-dom";
 const HeroSection = () => {
   return (
     <Wrapper id="home">
@@ -24,12 +24,17 @@ const HeroSection = () => {
         </p>
         <div className="hero-logo">
           <div>
-            <img src={githubIcon} alt="logo" />
+            <Link to="https://github.com/sohanshrestha12" target="_blank">
+              <img src={githubIcon} alt="logo" />
+            </Link>
+
             <img src={linkedInIcon} alt="logo" />
           </div>
           <div className="hero-button">
             <button>Download CV</button>
-            <button>Contact Info</button>
+            <a href="#contact">
+              <button>Contact Info</button>
+            </a>
           </div>
         </div>
       </div>

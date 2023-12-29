@@ -78,7 +78,7 @@ const Wrapper = styled.section`
     color: var(--header-color);
     letter-spacing: 0.1rem;
   }
-  .hero-logo .hero-button button:nth-child(2) {
+  .hero-logo .hero-button a button:nth-child(1) {
     font-size: 1.6rem;
     padding: 1rem 1.8rem;
     background-color: transparent;
@@ -101,7 +101,7 @@ const Wrapper = styled.section`
     color: white;
   }
   @media only screen and (max-width: 768px) {
-    gap: 0;
+    gap: 2rem;
     margin-top: 3rem;
     grid-template-columns: 1fr;
     padding-left: 5rem;
