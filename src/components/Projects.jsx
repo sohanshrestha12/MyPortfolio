@@ -11,6 +11,9 @@ const Projects = () => {
       </p>
       <p>Each Project is a unique piece of development</p>
       <AllProjects />
+      <div className="view-more">
+        <a target="_blank" href="https://github.com/sohanshrestha12">View More</a>
+      </div>
     </Wrapper>
   );
 };

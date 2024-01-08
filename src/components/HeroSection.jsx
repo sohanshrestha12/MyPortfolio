@@ -31,9 +31,16 @@ const HeroSection = () => {
             <img src={linkedInIcon} alt="logo" />
           </div>
           <div className="hero-button">
-            <button>Download CV</button>
+            <button className="download_cv">
+              <a
+                href="cv/Sohan_Shrestha_Resume.rar"
+                download="Sohan_Shrestha_Resume.rar"
+              >
+                Download CV
+              </a>
+            </button>
             <a href="#contact">
-              <button>Contact Info</button>
+              <button className="contact-info-btn">Contact Info</button>
             </a>
           </div>
         </div>

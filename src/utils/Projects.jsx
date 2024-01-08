@@ -1,5 +1,6 @@
 import Jobify from "../assets/images/Jobify2.png";
 import flappyBird from '../assets/images/flappyBird.png';
+import spotify from '../assets/images/spotify.png';
 
 const allProjects = [
   {
@@ -18,6 +19,15 @@ const allProjects = [
     githubCode:
       "https://github.com/sohanshrestha12/JS_MiniGames/tree/master/Day8",
     Live: "http://gold-lindsay-7.tiiny.site",
+  },
+
+  {
+    image: spotify,
+    heading: "Spotify Clone",
+    desc: "Experience the rhythm of a personalized music journey with our Spotify clone built using React. Seamlessly navigate through your favorite tracks and playlists, enjoying a sleek and responsive user interface.",
+    tags: ["React"],
+    githubCode: "https://github.com/sohanshrestha12/Music-app",
+    Live: "https://sohanshrestha12.github.io/Music-app/",
   },
 ];
 

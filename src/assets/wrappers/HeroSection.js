@@ -64,13 +64,23 @@ const Wrapper = styled.section`
     margin-right: 1rem;
     height: 2.2rem;
   }
+  .hero-button .download_cv a {
+    text-decoration: none;
+    font-size: 1.6rem;
+    font-weight: 700;
+    color: var(--header-color);
+    padding: 1rem 1.8rem;
+  }
+  .hero-logo .hero-button button:nth-child(1):hover a {
+    color: white;
+  }
   .hero-button {
     display: flex;
     gap: 1.6rem;
   }
   .hero-logo .hero-button button:nth-child(1) {
     font-size: 1.6rem;
-    padding: 1rem 1.8rem;
+
     background-color: transparent;
     font-weight: 700;
     border: 2px solid var(--header-color);
@@ -94,7 +104,7 @@ const Wrapper = styled.section`
     background-color: var(--header-color);
     color: white;
   }
-  .hero-logo .hero-button button:nth-child(2):hover {
+  .hero-logo .hero-button a button:nth-child(1):hover {
     cursor: pointer;
     border-color: #4232a5;
     background-color: #4232a5;
